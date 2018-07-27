@@ -1,6 +1,6 @@
 # person.rb
 class Person
   
-  attr_writer :job
+  attr_accessor :job, :name
   
 end
